@@ -1,13 +1,10 @@
 {
-  "sources": {
-    "facebook": {
-      "username": "your-fb-login",
-      "password": "your-fb-password",
-      "users": [
-        "friend1", "friend2"
-      ],
-      "max_num_posts_per_user": 25
-    }
-  },
-  "send_to": "email-to-send-results-to@gmail.com"
+  "fb_username": "your-fb-login-username",
+  "fb_password": "your-fb-password",
+  "users": [
+    "usernameA", "usernameB"
+  ],
+  "output_bin": "any-name-you-want",
+  "max_num_posts_per_user": 10,
+  "after_timestamp": 23220023
 }
